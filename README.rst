@@ -48,7 +48,7 @@ examples:
 
 .. code:: python
 
-  from levelpy import LevelDB
+  from levelpy.leveldb import LevelDB
 
   db = LevelDB('/path/to/db')  # use the default leveldb.LevelDB backend
 
